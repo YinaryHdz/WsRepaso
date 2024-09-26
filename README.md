@@ -1,5 +1,8 @@
+
 # WsJavaUpgrade
 
 ## Repositorio Java
 
-Repositorio usado en las clases de DAM (solo :)) de UpgradeHub
+Repositorio usado en las clases de DAM (solo :)) de UpgradeHub -- ya no
+
+# WsRepaso
