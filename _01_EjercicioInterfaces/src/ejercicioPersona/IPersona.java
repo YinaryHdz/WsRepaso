@@ -4,9 +4,10 @@ import java.util.List;
 
 public interface IPersona {
 
-	void agregarPersona(Persona persona);
-	void eliminarPersona(Persona persona);
+	void cambiarCiudad(String nuevaiCudad);
+	void actualizarPeso(double nuevoPeso);
 	boolean identificarSiEsMayorDeEdad(int edad);
-	List<Persona>buscarPorCiudad(String ciudad);
+	List<String>eliminarTelefonos();
+	void eliminarTelefono(String telefono);
 	
 }
