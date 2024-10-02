@@ -16,7 +16,13 @@ public class AccesoDatosImpl implements IAccesoDatos{
 	}
 	@Override
 	public void agregarPelicula(String nombrePelicula, String nombreArchivo) {
-		
+		try {
+			FileWriter agregar = new FileWriter(nombreArchivo);
+			
+		} catch (IOException excepcion) {
+			System.out.println("Ocurrio un error al agregar la pelicula");
+			excepcion.printStackTrace();
+		}
 	}
 	
 	@Override
