@@ -5,7 +5,22 @@ import java.util.Scanner;
 public class MainPeliculas {
 	public static Scanner sc = null;
 	public static void main(String[] args) {
+		sc = new Scanner(System.in);
 		mostrarMenu();
+		int opcion = 0;
+		do {
+			opcion = mostrarMenu();
+			switch(opcion) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			}
+		}while(opcion != 4);
 	}
 	private static int mostrarMenu() {
 		System.out.println("Introduzca una opcion:");
